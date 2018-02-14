@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="commons-io-2.5.jar"/>
+	<classpathentry kind="lib" path="gson-2.6.2.jar"/>
+	<classpathentry kind="lib" path="javaparser-core-3.4.3.jar"/>
+	<classpathentry kind="lib" path="jsch-0.1.54.jar"/>
+	<classpathentry kind="lib" path="maven-model-2.0.9.jar"/>
+	<classpathentry kind="lib" path="org.eclipse.jgit-4.7.1.201706071930-r.jar"/>
+	<classpathentry kind="lib" path="plexus-utils-1.5.1.jar"/>
+	<classpathentry kind="lib" path="slf4j-api-1.7.25.jar"/>
+	<classpathentry kind="lib" path="slf4j-simple-1.7.25.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

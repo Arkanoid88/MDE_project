@@ -1,0 +1,1174 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dio:Model xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xmi="http://www.omg.org/XMI" xmlns:dio="ghmde" xmi:version="2.0">
+  <technologies title="ECORE" name="ecore" files="//@users.0/@repositories.0/@files.0 //@users.0/@repositories.1/@files.0 //@users.1/@repositories.0/@files.0 //@users.1/@repositories.0/@files.1 //@users.1/@repositories.0/@files.2 //@users.1/@repositories.0/@files.3 //@users.1/@repositories.0/@files.4 //@users.1/@repositories.0/@files.5 //@users.1/@repositories.0/@files.6 //@users.1/@repositories.0/@files.7 //@users.1/@repositories.0/@files.8 //@users.2/@repositories.0/@files.0 //@users.2/@repositories.0/@files.1 //@users.2/@repositories.0/@files.2 //@users.2/@repositories.0/@files.3 //@users.2/@repositories.0/@files.4 //@users.2/@repositories.0/@files.5 //@users.2/@repositories.0/@files.6 //@users.2/@repositories.0/@files.7 //@users.2/@repositories.0/@files.8 //@users.2/@repositories.0/@files.9 //@users.2/@repositories.0/@files.10 //@users.2/@repositories.0/@files.11 //@users.2/@repositories.0/@files.12 //@users.2/@repositories.0/@files.13 //@users.2/@repositories.0/@files.14 //@users.2/@repositories.0/@files.15 //@users.2/@repositories.0/@files.16 //@users.2/@repositories.0/@files.17 //@users.2/@repositories.0/@files.18 //@users.2/@repositories.0/@files.19 //@users.2/@repositories.0/@files.20 //@users.2/@repositories.0/@files.21 //@users.2/@repositories.0/@files.22 //@users.2/@repositories.0/@files.23 //@users.2/@repositories.0/@files.24 //@users.2/@repositories.0/@files.25 //@users.2/@repositories.0/@files.26 //@users.2/@repositories.0/@files.27 //@users.2/@repositories.0/@files.28 //@users.2/@repositories.0/@files.29 //@users.2/@repositories.0/@files.30 //@users.3/@repositories.0/@files.0 //@users.3/@repositories.0/@files.1 //@users.3/@repositories.0/@files.2 //@users.3/@repositories.0/@files.3 //@users.3/@repositories.0/@files.4 //@users.3/@repositories.0/@files.5 //@users.3/@repositories.0/@files.6 //@users.3/@repositories.0/@files.7 //@users.3/@repositories.0/@files.8 //@users.3/@repositories.0/@files.9 //@users.3/@repositories.0/@files.10 //@users.3/@repositories.0/@files.11 //@users.3/@repositories.0/@files.12 //@users.3/@repositories.0/@files.13 //@users.4/@repositories.0/@files.0 //@users.4/@repositories.0/@files.1 //@users.4/@repositories.0/@files.2 //@users.4/@repositories.0/@files.3 //@users.4/@repositories.0/@files.4 //@users.4/@repositories.0/@files.5 //@users.4/@repositories.0/@files.6 //@users.4/@repositories.0/@files.7 //@users.4/@repositories.0/@files.8 //@users.4/@repositories.0/@files.9 //@users.4/@repositories.0/@files.10 //@users.4/@repositories.0/@files.11 //@users.4/@repositories.1/@files.0 //@users.4/@repositories.1/@files.1 //@users.4/@repositories.1/@files.2 //@users.4/@repositories.1/@files.3 //@users.4/@repositories.1/@files.4 //@users.4/@repositories.1/@files.5 //@users.5/@repositories.0/@files.0 //@users.5/@repositories.0/@files.1 //@users.6/@repositories.0/@files.0 //@users.7/@repositories.0/@files.0 //@users.8/@repositories.0/@files.0 //@users.9/@repositories.0/@files.0 //@users.10/@repositories.0/@files.0 //@users.11/@repositories.0/@files.0 //@users.11/@repositories.0/@files.1 //@users.11/@repositories.0/@files.2 //@users.11/@repositories.0/@files.3 //@users.11/@repositories.0/@files.4 //@users.11/@repositories.0/@files.5 //@users.11/@repositories.0/@files.6 //@users.11/@repositories.0/@files.7 //@users.11/@repositories.0/@files.8 //@users.11/@repositories.0/@files.9 //@users.11/@repositories.0/@files.10 //@users.11/@repositories.0/@files.11 //@users.11/@repositories.0/@files.12 //@users.11/@repositories.0/@files.13 //@users.11/@repositories.0/@files.14 //@users.11/@repositories.0/@files.15 //@users.11/@repositories.0/@files.16 //@users.11/@repositories.0/@files.17 //@users.11/@repositories.0/@files.18 //@users.11/@repositories.0/@files.19 //@users.11/@repositories.0/@files.20 //@users.11/@repositories.0/@files.21 //@users.11/@repositories.0/@files.22 //@users.11/@repositories.0/@files.23 //@users.11/@repositories.0/@files.24 //@users.11/@repositories.0/@files.25 //@users.11/@repositories.0/@files.26 //@users.11/@repositories.0/@files.27 //@users.11/@repositories.0/@files.28 //@users.11/@repositories.0/@files.29 //@users.11/@repositories.0/@files.30 //@users.11/@repositories.0/@files.31 //@users.11/@repositories.1/@files.0 //@users.11/@repositories.1/@files.1 //@users.11/@repositories.1/@files.2 //@users.11/@repositories.1/@files.3 //@users.11/@repositories.1/@files.4 //@users.11/@repositories.1/@files.5 //@users.11/@repositories.1/@files.6 //@users.11/@repositories.1/@files.7 //@users.11/@repositories.1/@files.8 //@users.11/@repositories.1/@files.9 //@users.11/@repositories.1/@files.10 //@users.11/@repositories.1/@files.11 //@users.11/@repositories.1/@files.12 //@users.11/@repositories.1/@files.13 //@users.11/@repositories.1/@files.14 //@users.11/@repositories.1/@files.15 //@users.11/@repositories.1/@files.16 //@users.11/@repositories.1/@files.17 //@users.11/@repositories.2/@files.0 //@users.11/@repositories.2/@files.1 //@users.11/@repositories.2/@files.2 //@users.11/@repositories.2/@files.3 //@users.11/@repositories.2/@files.4 //@users.11/@repositories.2/@files.5 //@users.11/@repositories.2/@files.6 //@users.11/@repositories.2/@files.7 //@users.11/@repositories.2/@files.8 //@users.11/@repositories.2/@files.9 //@users.11/@repositories.2/@files.10 //@users.11/@repositories.3/@files.0 //@users.11/@repositories.3/@files.1 //@users.11/@repositories.3/@files.2 //@users.11/@repositories.3/@files.3 //@users.11/@repositories.3/@files.4 //@users.11/@repositories.3/@files.5 //@users.11/@repositories.3/@files.6 //@users.11/@repositories.3/@files.7 //@users.11/@repositories.3/@files.8 //@users.11/@repositories.3/@files.9 //@users.12/@repositories.0/@files.0 //@users.12/@repositories.1/@files.0 //@users.13/@repositories.0/@files.0 //@users.13/@repositories.0/@files.1 //@users.13/@repositories.0/@files.2 //@users.13/@repositories.0/@files.3 //@users.13/@repositories.0/@files.4 //@users.13/@repositories.0/@files.5 //@users.13/@repositories.0/@files.6 //@users.13/@repositories.0/@files.7 //@users.13/@repositories.0/@files.8 //@users.14/@repositories.0/@files.0 //@users.14/@repositories.1/@files.0 //@users.15/@repositories.0/@files.0 //@users.15/@repositories.0/@files.1 //@users.16/@repositories.0/@files.0 //@users.16/@repositories.0/@files.1 //@users.16/@repositories.0/@files.2 //@users.17/@repositories.0/@files.0 //@users.17/@repositories.0/@files.1 //@users.17/@repositories.0/@files.2 //@users.17/@repositories.0/@files.3 //@users.17/@repositories.0/@files.4 //@users.18/@repositories.0/@files.0 //@users.19/@repositories.0/@files.0 //@users.19/@repositories.0/@files.1 //@users.19/@repositories.0/@files.2 //@users.19/@repositories.0/@files.3 //@users.19/@repositories.0/@files.4 //@users.19/@repositories.0/@files.5 //@users.19/@repositories.0/@files.6 //@users.19/@repositories.0/@files.7 //@users.19/@repositories.0/@files.8 //@users.19/@repositories.0/@files.9 //@users.19/@repositories.0/@files.10 //@users.19/@repositories.0/@files.11 //@users.19/@repositories.0/@files.12 //@users.19/@repositories.1/@files.0 //@users.19/@repositories.2/@files.0 //@users.19/@repositories.2/@files.1 //@users.19/@repositories.3/@files.0 //@users.20/@repositories.0/@files.0 //@users.20/@repositories.0/@files.1 //@users.20/@repositories.0/@files.2 //@users.20/@repositories.0/@files.3 //@users.20/@repositories.0/@files.4 //@users.21/@repositories.0/@files.0 //@users.22/@repositories.0/@files.0 //@users.23/@repositories.0/@files.0 //@users.23/@repositories.0/@files.1 //@users.24/@repositories.0/@files.0 //@users.25/@repositories.0/@files.0 //@users.25/@repositories.0/@files.1 //@users.25/@repositories.0/@files.2 //@users.25/@repositories.0/@files.3 //@users.25/@repositories.0/@files.4 //@users.25/@repositories.0/@files.5 //@users.25/@repositories.0/@files.6 //@users.26/@repositories.0/@files.0 //@users.27/@repositories.0/@files.0 //@users.28/@repositories.0/@files.0 //@users.29/@repositories.0/@files.0 //@users.29/@repositories.0/@files.1 //@users.30/@repositories.0/@files.0 //@users.30/@repositories.0/@files.1 //@users.30/@repositories.0/@files.2 //@users.30/@repositories.0/@files.3 //@users.30/@repositories.0/@files.4 //@users.30/@repositories.0/@files.5 //@users.30/@repositories.0/@files.6 //@users.30/@repositories.0/@files.7 //@users.30/@repositories.0/@files.8 //@users.30/@repositories.0/@files.9 //@users.30/@repositories.0/@files.10 //@users.30/@repositories.0/@files.11 //@users.30/@repositories.0/@files.12 //@users.30/@repositories.0/@files.13 //@users.30/@repositories.0/@files.14 //@users.30/@repositories.0/@files.15 //@users.30/@repositories.0/@files.16 //@users.30/@repositories.0/@files.17 //@users.31/@repositories.0/@files.0 //@users.31/@repositories.1/@files.0 //@users.31/@repositories.2/@files.0 //@users.32/@repositories.0/@files.0 //@users.32/@repositories.0/@files.1 //@users.32/@repositories.0/@files.2 //@users.32/@repositories.0/@files.3 //@users.32/@repositories.0/@files.4 //@users.32/@repositories.0/@files.5 //@users.32/@repositories.0/@files.6 //@users.32/@repositories.0/@files.7 //@users.32/@repositories.0/@files.8 //@users.32/@repositories.0/@files.9 //@users.32/@repositories.0/@files.10 //@users.32/@repositories.0/@files.11 //@users.32/@repositories.0/@files.12 //@users.32/@repositories.0/@files.13 //@users.32/@repositories.0/@files.14 //@users.32/@repositories.0/@files.15 //@users.32/@repositories.0/@files.16 //@users.32/@repositories.0/@files.17 //@users.32/@repositories.0/@files.18 //@users.32/@repositories.0/@files.19 //@users.32/@repositories.0/@files.20 //@users.32/@repositories.0/@files.21 //@users.32/@repositories.0/@files.22 //@users.32/@repositories.0/@files.23 //@users.32/@repositories.0/@files.24 //@users.32/@repositories.0/@files.25 //@users.32/@repositories.0/@files.26 //@users.32/@repositories.0/@files.27 //@users.32/@repositories.0/@files.28 //@users.32/@repositories.0/@files.29 //@users.32/@repositories.0/@files.30 //@users.32/@repositories.0/@files.31 //@users.32/@repositories.0/@files.32 //@users.32/@repositories.0/@files.33 //@users.32/@repositories.0/@files.34 //@users.32/@repositories.0/@files.35 //@users.32/@repositories.0/@files.36 //@users.32/@repositories.0/@files.37 //@users.32/@repositories.0/@files.38 //@users.32/@repositories.0/@files.39 //@users.32/@repositories.0/@files.40 //@users.32/@repositories.0/@files.41 //@users.32/@repositories.0/@files.42 //@users.32/@repositories.0/@files.43 //@users.32/@repositories.0/@files.44 //@users.32/@repositories.0/@files.45 //@users.32/@repositories.0/@files.46 //@users.32/@repositories.0/@files.47 //@users.32/@repositories.0/@files.48 //@users.32/@repositories.0/@files.49 //@users.32/@repositories.0/@files.50 //@users.32/@repositories.0/@files.51 //@users.33/@repositories.0/@files.0 //@users.33/@repositories.0/@files.1 //@users.33/@repositories.0/@files.2 //@users.33/@repositories.0/@files.3 //@users.33/@repositories.0/@files.4 //@users.33/@repositories.0/@files.5 //@users.33/@repositories.0/@files.6 //@users.33/@repositories.0/@files.7 //@users.33/@repositories.0/@files.8 //@users.33/@repositories.0/@files.9 //@users.33/@repositories.0/@files.10 //@users.33/@repositories.0/@files.11 //@users.33/@repositories.0/@files.12 //@users.33/@repositories.0/@files.13 //@users.33/@repositories.0/@files.14 //@users.33/@repositories.0/@files.15 //@users.33/@repositories.0/@files.16 //@users.33/@repositories.0/@files.17 //@users.33/@repositories.0/@files.18 //@users.33/@repositories.0/@files.19 //@users.33/@repositories.0/@files.20 //@users.33/@repositories.0/@files.21 //@users.33/@repositories.0/@files.22 //@users.33/@repositories.0/@files.23 //@users.33/@repositories.0/@files.24 //@users.33/@repositories.0/@files.25 //@users.33/@repositories.0/@files.26 //@users.33/@repositories.0/@files.27 //@users.33/@repositories.0/@files.28 //@users.33/@repositories.0/@files.29 //@users.33/@repositories.0/@files.30"/>
+  <developers name="Alejandro Velasco" email="alejandrovelasco94@gmail.com"/>
+  <developers name="Florian Barbin" email="florian.barbin@obeo.fr"/>
+  <developers name="Softsysteme" email="mta@129.217.116.31"/>
+  <developers name="sboyko" email="serg.boyko2011@gmail.com"/>
+  <developers name="ghillairet" email="g.hillairet@gmail.com"/>
+  <developers name="hieplq" email="lequanghiep74@gmail.com"/>
+  <developers name="dwagelaar" email="dwagelaar@gmail.com"/>
+  <developers name="Jeroen Noten" email="jeroennoten@me.com"/>
+  <developers name="René" email="mail@renehahn.de"/>
+  <developers name="Thomas Degueule" email="degueule@cwi.nl"/>
+  <developers name="Loli Burgueño" email="lolybc88@gmail.com"/>
+  <developers name="sboyko" email="sboyko"/>
+  <developers name="adilinam" email="adil.inam@hotmail.com"/>
+  <developers name="aigdalov" email="aigdalov"/>
+  <developers name="md2manoppello" email="juri.di.rocco@gmail.com"/>
+  <developers name="David Mendez-Acuna" email="damenac@gmail.com"/>
+  <developers name="kborn" email="kristopherborn@gmx.de"/>
+  <developers name="Axel Richard" email="axel.richard@obeo.fr"/>
+  <developers name="Leszek Uchacz" email="bloodzio@gmail.com"/>
+  <developers name="unknown" email="classicwuhao@gmail.com"/>
+  <developers name="Adil" email="adil.inam@hotmail.com"/>
+  <developers name="Adil Inam" email="adil.inam@hotmail.com"/>
+  <developers name="Jaime.Pavlich" email="devnull@localhost"/>
+  <developers name="Pierre-Charles David" email="pierre-charles.david@obeo.fr"/>
+  <developers name="Laurent Redor" email="laurent.redor@obeo.fr"/>
+  <developers name="Thomas Degueule" email="thomas.degueule@inria.fr"/>
+  <developers name="skovalsky" email="kovalsky@montages.com"/>
+  <developers name="Jan Vium Enghoff" email="jan.jve@gmail.com"/>
+  <developers name="radvorak" email="radvorak"/>
+  <developers name="jesus" email="jesus@jesus-portege-r830"/>
+  <developers name="cgerking" email="cgerking@campus.upb.de"/>
+  <developers name="Joerg Reichert" email="de.abg.reichert.joerg@googlemail.com"/>
+  <developers name="xilaew@gmail.com" email="xilaew@gmail.com"/>
+  <developers name="Your Name" email="you@example.com"/>
+  <developers name="tarendt" email="tarendt"/>
+  <developers name="Jael" email="jaelo_god@hotmail.com"/>
+  <developers name="Miro Spönemann" email="miro.spoenemann@typefox.io"/>
+  <developers name="lrose" email="lrose@b1e7822e-7b56-0410-88b3-db6ede196368"/>
+  <users id="13967389" name="BGCX261">
+    <repositories size="35680" name="zoomenv-hg-to-git">
+      <files path="zoomenv.client/model/CSTemplateDescription.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.22" date="2012-02-17"/>
+      </files>
+    </repositories>
+    <repositories size="34980" name="zoomenv-svn-to-git">
+      <files path="trunk/zoomenv.client/model/CSTemplateDescription.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.33" date="2015-08-25"/>
+      </files>
+    </repositories>
+  </users>
+  <users id="6865164" name="CohesionForce">
+    <repositories size="135937" name="ecfrance-sirius">
+      <files path="plugins/org.eclipse.sirius.tests.junit/data/unit/mappings/VP-2534/My.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.23" date="2014-09-29"/>
+      </files>
+      <files path="plugins/org.eclipse.sirius.tests.swtbot/data/unit/delete/bugzilla-444728/toolFilterNPE.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.24" date="2014-10-06"/>
+      </files>
+      <files path="plugins/org.eclipse.sirius.tests.junit/data/unit/style/ticket2229/2229.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.23" date="2014-09-29"/>
+      </files>
+      <files path="plugins/org.eclipse.sirius.tests.swtbot/data/unit/closeEditorSpecificTest/1854.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.23" date="2014-08-25"/>
+      </files>
+      <files path="plugins/org.eclipse.sirius.tests.swtbot/data/unit/session/representationCreation/My_.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.23" date="2014-08-25"/>
+      </files>
+      <files path="plugins/org.eclipse.sirius.tests.swtbot/data/unit/copyAppearance/490444.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.1" date="2016-04-25"/>
+      </files>
+      <files path="plugins/org.eclipse.sirius.tests.swtbot/data/unit/dragAndDrop/extra_mapping/My.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.23" date="2014-08-25"/>
+      </files>
+      <files path="plugins/org.eclipse.sirius.tests.swtbot/data/unit/routing/change_routing_style/My.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.23" date="2014-08-25"/>
+      </files>
+      <files path="plugins/org.eclipse.sirius.tests.junit/data/tree/unit/directedit/vp912/vp912.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.23" date="2014-09-29"/>
+      </files>
+    </repositories>
+  </users>
+  <users id="15017524" name="FitashUlHaq">
+    <repositories size="27040" name="PivotBasedQvto">
+      <files path="tests/org.eclipse.m2m.tests.qvt.oml/parserTestData/models/mm_header1/expected.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.3" date="2007-08-20"/>
+      </files>
+      <files path="tests/org.eclipse.m2m.tests.qvt.oml/parserTestData/models/intermWithCrossRefs/intermWithCrossRefs.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.3" date="2008-12-05"/>
+      </files>
+      <files path="tests/org.eclipse.m2m.tests.qvt.oml/parserTestData/models/uml2_stereotypeApplication/expected3.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.3" date="2014-02-19"/>
+      </files>
+      <files path="tests/org.eclipse.m2m.tests.qvt.oml/parserTestData/models/virtual_contextVsOverride/expected.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.28" date="2009-05-14"/>
+      </files>
+      <files path="tests/org.eclipse.m2m.tests.qvt.oml/parserTestData/models/constructors/constructors_x.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.3" date="2009-02-03"/>
+      </files>
+      <files path="tests/org.eclipse.m2m.tests.qvt.oml/parserTestData/models/uml2_stereotypeApplication/expected2.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.3" date="2014-02-19"/>
+        <commits author="//@developers.3" date="2010-05-18"/>
+      </files>
+      <files path="tests/org.eclipse.m2m.tests.qvt.oml/parserTestData/models/importedExtents/expected.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.3" date="2009-02-06"/>
+        <commits author="//@developers.3" date="2007-10-01"/>
+      </files>
+      <files path="tests/org.eclipse.m2m.tests.qvt.oml/parserTestData/models/imports/in.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.28" date="2007-08-30"/>
+      </files>
+      <files path="tests/org.eclipse.m2m.tests.qvt.oml/parserTestData/models/imports_transformations/in.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.28" date="2007-08-30"/>
+      </files>
+      <files path="tests/org.eclipse.m2m.tests.qvt.oml/parserTestData/models/invalidcollectioncast/in.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.28" date="2007-07-29"/>
+      </files>
+      <files path="tests/org.eclipse.m2m.tests.qvt.oml/parserTestData/models/scr17812/expected.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.28" date="2007-07-29"/>
+      </files>
+      <files path="tests/org.eclipse.m2m.tests.qvt.oml/parserTestData/models/tuples/expected.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.28" date="2007-08-30"/>
+      </files>
+      <files path="tests/org.eclipse.m2m.tests.qvt.oml/parserTestData/models/useresultinsameout/expected.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.28" date="2007-07-29"/>
+      </files>
+      <files path="tests/org.eclipse.m2m.tests.qvt.oml/parserTestData/models/varassign/expected.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.28" date="2007-07-29"/>
+      </files>
+      <files path="tests/org.eclipse.m2m.tests.qvt.oml/parserTestData/models/intermediateprop_import/expected.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.28" date="2008-12-10"/>
+        <commits author="//@developers.3" date="2008-04-29"/>
+      </files>
+      <files path="tests/org.eclipse.m2m.tests.qvt.oml/parserTestData/models/isunique/in.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.28" date="2007-07-29"/>
+      </files>
+      <files path="tests/org.eclipse.m2m.tests.qvt.oml/parserTestData/models/collectionMappingResult/expected.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.3" date="2008-07-08"/>
+        <commits author="//@developers.28" date="2008-04-28"/>
+      </files>
+      <files path="tests/org.eclipse.m2m.tests.qvt.oml/parserTestData/models/simplestXCollectShorthand/expected.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.13" date="2008-02-01"/>
+      </files>
+      <files path="tests/org.eclipse.m2m.tests.qvt.oml/parserTestData/models/iteratetest/in.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.28" date="2007-07-29"/>
+      </files>
+      <files path="tests/org.eclipse.m2m.tests.qvt.oml/parserTestData/models/overload/expected.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.28" date="2007-07-29"/>
+      </files>
+      <files path="tests/org.eclipse.m2m.tests.qvt.oml/parserTestData/models/uml2_stereotypeApplication/expected1.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.3" date="2014-02-19"/>
+      </files>
+      <files path="tests/org.eclipse.m2m.tests.qvt.oml/parserTestData/models/bug219075_1/expected.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.3" date="2008-02-27"/>
+        <commits author="//@developers.3" date="2008-02-15"/>
+      </files>
+      <files path="tests/org.eclipse.m2m.tests.qvt.oml/parserTestData/models/lateresolve_many/in.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.28" date="2007-12-17"/>
+      </files>
+      <files path="tests/org.eclipse.m2m.tests.qvt.oml/parserTestData/models/bug2741/in.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.13" date="2008-02-07"/>
+      </files>
+      <files path="tests/org.eclipse.m2m.tests.qvt.oml/parserTestData/models/bug274105_274505/in.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.3" date="2013-08-05"/>
+      </files>
+      <files path="tests/org.eclipse.m2m.tests.qvt.oml/parserTestData/models/bug420970/in.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.3" date="2013-12-16"/>
+      </files>
+      <files path="tests/org.eclipse.m2m.tests.qvt.oml/parserTestData/models/mappingBodyExpressions_252358/expected.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.13" date="2008-11-13"/>
+      </files>
+      <files path="tests/org.eclipse.m2m.tests.qvt.oml/parserTestData/models/overload_singleParam/expected.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.28" date="2009-05-12"/>
+      </files>
+      <files path="tests/org.eclipse.m2m.tests.qvt.oml/parserTestData/models/iteratetest/expected.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.28" date="2007-07-29"/>
+      </files>
+      <files path="tests/org.eclipse.m2m.tests.qvt.oml/parserTestData/models/objectExpBodyExpressions_253051/expected.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.13" date="2008-11-13"/>
+      </files>
+      <files path="tests/org.eclipse.m2m.tests.qvt.oml/parserTestData/models/resolve_notype/expected.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.28" date="2007-07-29"/>
+      </files>
+    </repositories>
+  </users>
+  <users id="20089167" name="HashamUlHaq">
+    <repositories size="6393" name="Jira-Repository">
+      <files path="org.eclipse.m2m.tests.qvt.oml/parserTestData/models/mm_header1/expected.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.12" date="2015-10-09"/>
+      </files>
+      <files path="org.eclipse.m2m.tests.qvt.oml/parserTestData/models/uml2_stereotypeApplication/expected3.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.12" date="2015-10-09"/>
+      </files>
+      <files path="org.eclipse.m2m.tests.qvt.oml/parserTestData/models/virtual_contextVsOverride/expected.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.12" date="2015-10-09"/>
+      </files>
+      <files path="org.eclipse.m2m.tests.qvt.oml/parserTestData/models/constructors/constructors_x.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.12" date="2015-10-09"/>
+      </files>
+      <files path="org.eclipse.m2m.tests.qvt.oml/parserTestData/models/uml2_stereotypeApplication/expected2.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.12" date="2015-10-09"/>
+      </files>
+      <files path="org.eclipse.m2m.tests.qvt.oml/parserTestData/models/intermediateprop_import/expected.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.12" date="2015-10-09"/>
+      </files>
+      <files path="org.eclipse.m2m.tests.qvt.oml/parserTestData/models/simplestXCollectShorthand/expected.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.12" date="2015-10-09"/>
+      </files>
+      <files path="org.eclipse.m2m.tests.qvt.oml/parserTestData/models/collectionMappingResult/expected.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.12" date="2015-10-09"/>
+      </files>
+      <files path="org.eclipse.m2m.tests.qvt.oml/parserTestData/models/bug219075_1/expected.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.12" date="2015-10-09"/>
+      </files>
+      <files path="org.eclipse.m2m.tests.qvt.oml/parserTestData/models/bug2741/in.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.12" date="2015-10-09"/>
+      </files>
+      <files path="org.eclipse.m2m.tests.qvt.oml/parserTestData/models/overload_singleParam/expected.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.12" date="2015-10-09"/>
+      </files>
+      <files path="org.eclipse.m2m.tests.qvt.oml/parserTestData/models/iteratetest/expected.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.12" date="2015-10-09"/>
+      </files>
+      <files path="org.eclipse.m2m.tests.qvt.oml/parserTestData/models/objectExpBodyExpressions_253051/expected.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.12" date="2015-10-09"/>
+      </files>
+      <files path="org.eclipse.m2m.tests.qvt.oml/parserTestData/models/resolve_notype/expected.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.12" date="2015-10-09"/>
+      </files>
+    </repositories>
+  </users>
+  <users id="5801604" name="Hu3bl">
+    <repositories size="32924" forks="2" name="emf.refactor">
+      <files path="org.eclipse.emf.refactor.refactorings.ecore.henshin/tests/RemoveEmptySubEClass/test_04/source.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.8" date="2017-08-02"/>
+      </files>
+      <files path="org.eclipse.emf.refactor.refactorings.ecore.henshin/tests/RemoveEmptySubEClass/test_04/target.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.8" date="2017-08-02"/>
+      </files>
+      <files path="org.eclipse.emf.refactor.refactorings.ecore/tests/RemoveEmptySubEClass/test_04/source.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.8" date="2017-08-02"/>
+      </files>
+      <files path="org.eclipse.emf.refactor.refactorings.ecore/tests/RemoveEmptySubEClass/test_04/target.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.8" date="2017-08-02"/>
+      </files>
+      <files path="org.eclipse.emf.refactor.refactorings.ecore.henshin/tests/RemoveEmptySuperEClass/test_04/source.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.8" date="2017-08-02"/>
+      </files>
+      <files path="org.eclipse.emf.refactor.refactorings.ecore.henshin/tests/RemoveEmptySuperEClass/test_04/target.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.8" date="2017-08-02"/>
+      </files>
+      <files path="org.eclipse.emf.refactor.refactorings.ecore/tests/RemoveEmptySuperEClass/test_04/source.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.8" date="2017-08-02"/>
+      </files>
+      <files path="org.eclipse.emf.refactor.refactorings.ecore/tests/RemoveEmptySuperEClass/test_04/target.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.8" date="2017-08-02"/>
+      </files>
+      <files path="edu.kit.ipd.sdq.emf.refactor.tests/CyclicHierarchy.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.8" date="2017-11-04"/>
+        <commits author="//@developers.8" date="2017-11-04"/>
+      </files>
+      <files path="org.eclipse.emf.refactor.refactorings.ecore.henshin/tests/RemoveEmptyReferencedEClass/test_02/source_ref.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.8" date="2017-08-02"/>
+      </files>
+      <files path="org.eclipse.emf.refactor.refactorings.ecore/tests/RemoveEmptyReferencedEClass/test_02/source_ref.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.8" date="2017-08-02"/>
+      </files>
+      <files path="edu.kit.ipd.sdq.emf.refactor.tests/WideHierarchy.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.8" date="2017-11-04"/>
+      </files>
+    </repositories>
+    <repositories size="1095" name="emf.refactor.examples">
+      <files path="org.eclipse.emf.refactor.refactorings.ecore.henshin/tests/RemoveEmptySubEClass/test_04/source.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.34" date="2012-12-21"/>
+      </files>
+      <files path="org.eclipse.emf.refactor.refactorings.ecore.henshin/tests/RemoveEmptySubEClass/test_04/target.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.34" date="2012-12-21"/>
+      </files>
+      <files path="org.eclipse.emf.refactor.refactorings.ecore/tests/RemoveEmptySubEClass/test_04/source.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.34" date="2012-12-21"/>
+      </files>
+      <files path="org.eclipse.emf.refactor.refactorings.ecore/tests/RemoveEmptySubEClass/test_04/target.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.34" date="2012-12-21"/>
+      </files>
+      <files path="org.eclipse.emf.refactor.refactorings.ecore.henshin/tests/RemoveEmptySuperEClass/test_04/source.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.34" date="2012-12-21"/>
+      </files>
+      <files path="org.eclipse.emf.refactor.refactorings.ecore.henshin/tests/RemoveEmptySuperEClass/test_04/target.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.34" date="2012-12-21"/>
+      </files>
+    </repositories>
+  </users>
+  <users id="20349358" name="Jamzeroth">
+    <repositories size="89752" name="WorkspacesMG">
+      <files path="Mars/runtime-EclipseApplication/Customization/ORIGINAL(PLEASE DO NOT CHANGE)/Vehículo.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.35" date="2016-08-20"/>
+      </files>
+      <files path="runtime-EclipseApplication/Customization/ORIGINAL(PLEASE DO NOT CHANGE)/Vehículo.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.35" date="2016-08-20"/>
+      </files>
+    </repositories>
+  </users>
+  <users id="11612592" name="MDEGroup">
+    <repositories size="9868" name="QMM-COMLAN-data">
+      <files path="validation-subjects/metamodels/Providers.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.14" date="2017-10-26"/>
+      </files>
+    </repositories>
+  </users>
+  <users id="18621583" name="NUIM-FM">
+    <repositories watchers="1" size="19266" name="asmig" stargazers="1">
+      <files path="test/tree.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.19" date="2015-05-17"/>
+      </files>
+    </repositories>
+  </users>
+  <users id="21178725" name="Softsysteme">
+    <repositories size="4254" forks="1" name="schoolLife">
+      <files path="model/softsysteme.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.2" date="2016-10-19"/>
+      </files>
+    </repositories>
+  </users>
+  <users id="16970371" name="TypeFox">
+    <repositories size="126615" name="xtext-splitted-repo">
+      <files path="org.eclipse.xtext.tests/src/org/eclipse/xtext/parser/PartialParsingTestUtil.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.36" date="2016-06-14"/>
+      </files>
+    </repositories>
+  </users>
+  <users id="5190153" name="Xilaew">
+    <repositories size="33672" name="uml-activity-testcasegenerator">
+      <files path="org.xilaew.atg.model/model/TestcaseGraphRuntime.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.32" date="2013-08-25"/>
+        <commits author="//@developers.32" date="2013-08-08"/>
+      </files>
+    </repositories>
+  </users>
+  <users id="13465368" name="adilinam">
+    <repositories size="6690" name="EclipsePivotBasedQVTo">
+      <files path="org.eclipse.m2m.tests.qvt.oml/parserTestData/models/mm_header1/expected.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.12" date="2015-10-09"/>
+      </files>
+      <files path="org.eclipse.m2m.tests.qvt.oml/parserTestData/models/intermWithCrossRefs/intermWithCrossRefs.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.12" date="2015-10-09"/>
+      </files>
+      <files path="org.eclipse.m2m.tests.qvt.oml/parserTestData/models/uml2_stereotypeApplication/expected3.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.12" date="2015-10-09"/>
+      </files>
+      <files path="org.eclipse.m2m.tests.qvt.oml/parserTestData/models/virtual_contextVsOverride/expected.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.12" date="2015-10-09"/>
+      </files>
+      <files path="org.eclipse.m2m.tests.qvt.oml/parserTestData/models/constructors/constructors_x.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.12" date="2015-10-09"/>
+      </files>
+      <files path="org.eclipse.m2m.tests.qvt.oml/parserTestData/models/uml2_stereotypeApplication/expected2.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.12" date="2015-10-09"/>
+      </files>
+      <files path="org.eclipse.m2m.tests.qvt.oml/parserTestData/models/simplerename/expected.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.12" date="2015-10-09"/>
+      </files>
+      <files path="org.eclipse.m2m.tests.qvt.oml/parserTestData/models/importedExtents/expected.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.12" date="2015-10-09"/>
+      </files>
+      <files path="org.eclipse.m2m.tests.qvt.oml/parserTestData/models/imports/in.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.12" date="2015-10-09"/>
+      </files>
+      <files path="org.eclipse.m2m.tests.qvt.oml/parserTestData/models/imports_transformations/in.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.12" date="2015-10-09"/>
+      </files>
+      <files path="org.eclipse.m2m.tests.qvt.oml/parserTestData/models/invalidcollectioncast/in.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.12" date="2015-10-09"/>
+      </files>
+      <files path="org.eclipse.m2m.tests.qvt.oml/parserTestData/models/scr17812/expected.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.12" date="2015-10-09"/>
+      </files>
+      <files path="org.eclipse.m2m.tests.qvt.oml/parserTestData/models/useresultinsameout/expected.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.12" date="2015-10-09"/>
+      </files>
+      <files path="org.eclipse.m2m.tests.qvt.oml/parserTestData/models/varassign/expected.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.12" date="2015-10-09"/>
+      </files>
+      <files path="org.eclipse.m2m.tests.qvt.oml/parserTestData/models/tuples/expected.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.12" date="2015-10-09"/>
+      </files>
+      <files path="org.eclipse.m2m.tests.qvt.oml/parserTestData/models/intermediateprop_import/expected.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.12" date="2015-10-09"/>
+      </files>
+      <files path="org.eclipse.m2m.tests.qvt.oml/parserTestData/models/isunique/in.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.12" date="2015-10-09"/>
+      </files>
+      <files path="org.eclipse.m2m.tests.qvt.oml/parserTestData/models/collectionMappingResult/expected.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.12" date="2015-10-09"/>
+      </files>
+      <files path="org.eclipse.m2m.tests.qvt.oml/parserTestData/models/simplestXCollectShorthand/expected.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.12" date="2015-10-09"/>
+      </files>
+      <files path="org.eclipse.m2m.tests.qvt.oml/parserTestData/models/iteratetest/in.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.12" date="2015-10-09"/>
+      </files>
+      <files path="org.eclipse.m2m.tests.qvt.oml/parserTestData/models/uml2_stereotypeApplication/expected1.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.12" date="2015-10-09"/>
+      </files>
+      <files path="org.eclipse.m2m.tests.qvt.oml/parserTestData/models/overload/expected.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.12" date="2015-10-09"/>
+      </files>
+      <files path="org.eclipse.m2m.tests.qvt.oml/parserTestData/models/bug219075_1/expected.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.12" date="2015-10-09"/>
+      </files>
+      <files path="org.eclipse.m2m.tests.qvt.oml/parserTestData/models/lateresolve_many/in.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.12" date="2015-10-09"/>
+      </files>
+      <files path="org.eclipse.m2m.tests.qvt.oml/parserTestData/models/bug2741/in.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.12" date="2015-10-09"/>
+      </files>
+      <files path="org.eclipse.m2m.tests.qvt.oml/parserTestData/models/bug274105_274505/in.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.12" date="2015-10-09"/>
+      </files>
+      <files path="org.eclipse.m2m.tests.qvt.oml/parserTestData/models/bug420970/in.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.12" date="2015-10-09"/>
+      </files>
+      <files path="org.eclipse.m2m.tests.qvt.oml/parserTestData/models/mappingBodyExpressions_252358/expected.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.12" date="2015-10-09"/>
+      </files>
+      <files path="org.eclipse.m2m.tests.qvt.oml/parserTestData/models/overload_singleParam/expected.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.12" date="2015-10-09"/>
+      </files>
+      <files path="org.eclipse.m2m.tests.qvt.oml/parserTestData/models/iteratetest/expected.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.12" date="2015-10-09"/>
+      </files>
+      <files path="org.eclipse.m2m.tests.qvt.oml/parserTestData/models/objectExpBodyExpressions_253051/expected.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.12" date="2015-10-09"/>
+      </files>
+      <files path="org.eclipse.m2m.tests.qvt.oml/parserTestData/models/resolve_notype/expected.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.12" date="2015-10-09"/>
+      </files>
+    </repositories>
+    <repositories size="48015" name="QVTo-QVTd-OCL">
+      <files path="org.eclipse.m2m.tests.qvt.oml/parserTestData/models/mm_header1/expected.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.21" date="2016-03-15"/>
+      </files>
+      <files path="org.eclipse.m2m.tests.qvt.oml/parserTestData/models/intermWithCrossRefs/intermWithCrossRefs.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.21" date="2016-03-15"/>
+      </files>
+      <files path="org.eclipse.m2m.tests.qvt.oml/parserTestData/models/uml2_stereotypeApplication/expected3.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.21" date="2016-03-15"/>
+      </files>
+      <files path="org.eclipse.m2m.tests.qvt.oml/parserTestData/models/virtual_contextVsOverride/expected.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.21" date="2016-03-15"/>
+      </files>
+      <files path="org.eclipse.m2m.tests.qvt.oml/parserTestData/models/constructors/constructors_x.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.21" date="2016-03-15"/>
+      </files>
+      <files path="org.eclipse.m2m.tests.qvt.oml/parserTestData/models/uml2_stereotypeApplication/expected2.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.21" date="2016-03-15"/>
+      </files>
+      <files path="org.eclipse.m2m.tests.qvt.oml/parserTestData/models/intermediateprop_import/expected.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.21" date="2016-03-15"/>
+      </files>
+      <files path="org.eclipse.m2m.tests.qvt.oml/parserTestData/models/collectionMappingResult/expected.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.21" date="2016-03-15"/>
+      </files>
+      <files path="org.eclipse.m2m.tests.qvt.oml/parserTestData/models/simplestXCollectShorthand/expected.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.21" date="2016-03-15"/>
+      </files>
+      <files path="org.eclipse.m2m.tests.qvt.oml/parserTestData/models/overload/expected.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.21" date="2016-03-15"/>
+      </files>
+      <files path="org.eclipse.m2m.tests.qvt.oml/parserTestData/models/uml2_stereotypeApplication/expected1.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.21" date="2016-03-15"/>
+      </files>
+      <files path="org.eclipse.m2m.tests.qvt.oml/parserTestData/models/bug219075_1/expected.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.21" date="2016-03-15"/>
+      </files>
+      <files path="org.eclipse.m2m.tests.qvt.oml/parserTestData/models/bug2741/in.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.21" date="2016-03-15"/>
+      </files>
+      <files path="org.eclipse.m2m.tests.qvt.oml/parserTestData/models/bug274105_274505/in.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.21" date="2016-03-15"/>
+      </files>
+      <files path="org.eclipse.m2m.tests.qvt.oml/parserTestData/models/overload_singleParam/expected.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.21" date="2016-03-15"/>
+      </files>
+      <files path="org.eclipse.m2m.tests.qvt.oml/parserTestData/models/iteratetest/expected.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.21" date="2016-03-15"/>
+      </files>
+      <files path="org.eclipse.m2m.tests.qvt.oml/parserTestData/models/objectExpBodyExpressions_253051/expected.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.21" date="2016-03-15"/>
+      </files>
+      <files path="org.eclipse.m2m.tests.qvt.oml/parserTestData/models/resolve_notype/expected.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.21" date="2016-03-15"/>
+      </files>
+    </repositories>
+    <repositories size="6435" name="QVToPivotEvaluator">
+      <files path="org.eclipse.m2m.tests.qvt.oml/parserTestData/models/mm_header1/expected.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.21" date="2016-03-10"/>
+      </files>
+      <files path="org.eclipse.m2m.tests.qvt.oml/parserTestData/models/constructors/constructors_x.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.21" date="2016-03-10"/>
+      </files>
+      <files path="org.eclipse.m2m.tests.qvt.oml/parserTestData/models/uml2_stereotypeApplication/expected2.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.21" date="2016-03-10"/>
+      </files>
+      <files path="org.eclipse.m2m.tests.qvt.oml/parserTestData/models/intermediateprop_import/expected.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.21" date="2016-03-10"/>
+      </files>
+      <files path="org.eclipse.m2m.tests.qvt.oml/parserTestData/models/collectionMappingResult/expected.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.21" date="2016-03-10"/>
+      </files>
+      <files path="org.eclipse.m2m.tests.qvt.oml/parserTestData/models/simplestXCollectShorthand/expected.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.21" date="2016-03-10"/>
+      </files>
+      <files path="org.eclipse.m2m.tests.qvt.oml/parserTestData/models/bug2741/in.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.21" date="2016-03-10"/>
+      </files>
+      <files path="org.eclipse.m2m.tests.qvt.oml/parserTestData/models/overload_singleParam/expected.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.21" date="2016-03-10"/>
+      </files>
+      <files path="org.eclipse.m2m.tests.qvt.oml/parserTestData/models/iteratetest/expected.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.21" date="2016-03-10"/>
+      </files>
+      <files path="org.eclipse.m2m.tests.qvt.oml/parserTestData/models/objectExpBodyExpressions_253051/expected.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.21" date="2016-03-10"/>
+      </files>
+      <files path="org.eclipse.m2m.tests.qvt.oml/parserTestData/models/resolve_notype/expected.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.21" date="2016-03-10"/>
+      </files>
+    </repositories>
+    <repositories watchers="1" size="6287" name="FYP-1-Final-Evaluation" stargazers="1">
+      <files path="org.eclipse.m2m.tests.qvt.oml/parserTestData/models/mm_header1/expected.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.20" date="2015-12-20"/>
+      </files>
+      <files path="org.eclipse.m2m.tests.qvt.oml/parserTestData/models/constructors/constructors_x.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.20" date="2015-12-20"/>
+      </files>
+      <files path="org.eclipse.m2m.tests.qvt.oml/parserTestData/models/uml2_stereotypeApplication/expected2.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.20" date="2015-12-20"/>
+      </files>
+      <files path="org.eclipse.m2m.tests.qvt.oml/parserTestData/models/intermediateprop_import/expected.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.20" date="2015-12-20"/>
+      </files>
+      <files path="org.eclipse.m2m.tests.qvt.oml/parserTestData/models/collectionMappingResult/expected.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.20" date="2015-12-20"/>
+      </files>
+      <files path="org.eclipse.m2m.tests.qvt.oml/parserTestData/models/simplestXCollectShorthand/expected.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.20" date="2015-12-20"/>
+      </files>
+      <files path="org.eclipse.m2m.tests.qvt.oml/parserTestData/models/bug2741/in.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.20" date="2015-12-20"/>
+      </files>
+      <files path="org.eclipse.m2m.tests.qvt.oml/parserTestData/models/overload_singleParam/expected.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.20" date="2015-12-20"/>
+      </files>
+      <files path="org.eclipse.m2m.tests.qvt.oml/parserTestData/models/iteratetest/expected.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.20" date="2015-12-20"/>
+      </files>
+      <files path="org.eclipse.m2m.tests.qvt.oml/parserTestData/models/resolve_notype/expected.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.20" date="2015-12-20"/>
+      </files>
+    </repositories>
+  </users>
+  <users id="1203413" name="alxbrd">
+    <repositories size="96016" name="org.eclipse.epsilon">
+      <files path="tests/org.eclipse.epsilon.eol.engine.test.acceptance/src/org/eclipse/epsilon/eol/engine/test/acceptance/eunit/ecore_lite.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.37" date="2011-07-14"/>
+      </files>
+    </repositories>
+    <repositories size="57478" name="henshin">
+      <files path="plugins/org.eclipse.emf.henshin.tests/basic/testModelsCPA/inheritanceTesting/vehicleAndTools.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.16" date="2016-04-26"/>
+      </files>
+    </repositories>
+  </users>
+  <users id="6813116" name="ambrusthomas">
+    <repositories size="1397" name="MeDeR.refactor.examples">
+      <files path="org.eclipse.emf.refactor.refactorings.ecore.henshin/tests/RemoveEmptySubEClass/test_04/source.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.34" date="2012-12-21"/>
+      </files>
+      <files path="org.eclipse.emf.refactor.refactorings.ecore.henshin/tests/RemoveEmptySubEClass/test_04/target.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.34" date="2012-12-21"/>
+      </files>
+      <files path="org.eclipse.emf.refactor.refactorings.ecore/tests/RemoveEmptySubEClass/test_04/source.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.34" date="2012-12-21"/>
+      </files>
+      <files path="org.eclipse.emf.refactor.refactorings.ecore/tests/RemoveEmptySubEClass/test_04/target.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.34" date="2012-12-21"/>
+      </files>
+      <files path="org.eclipse.emf.refactor.refactorings.ecore.henshin/tests/RemoveEmptySuperEClass/test_04/source.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.34" date="2012-12-21"/>
+      </files>
+      <files path="org.eclipse.emf.refactor.refactorings.ecore.henshin/tests/RemoveEmptySuperEClass/test_04/target.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.34" date="2012-12-21"/>
+      </files>
+      <files path="org.eclipse.emf.refactor.refactorings.ecore/tests/RemoveEmptySuperEClass/test_04/source.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.34" date="2012-12-21"/>
+      </files>
+      <files path="org.eclipse.emf.refactor.refactorings.ecore/tests/RemoveEmptySuperEClass/test_04/target.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.34" date="2012-12-21"/>
+      </files>
+      <files path="org.eclipse.emf.refactor.refactorings.ecore.henshin/tests/CreateReferencedEClass/test_09/source_ref.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.34" date="2012-12-21"/>
+      </files>
+    </repositories>
+  </users>
+  <users id="5813030" name="atlanmod">
+    <repositories watchers="1" size="68925" forks="1" name="org.eclipse.atl.reactive" stargazers="1">
+      <files path="tests/org.eclipse.m2m.atl.emftvm.tests/test-data/RefiningModeTest/RefiningModeTest.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.6" date="2013-01-04"/>
+      </files>
+    </repositories>
+    <repositories watchers="1" size="19141" forks="1" name="org.eclipse.atl.atlMR" stargazers="1">
+      <files path="tests/org.eclipse.m2m.atl.emftvm.tests/test-data/RefiningModeTest/RefiningModeTest.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.6" date="2013-01-04"/>
+      </files>
+    </repositories>
+  </users>
+  <users id="22875305" name="avelasco94">
+    <repositories size="11035" name="clojure-workspace">
+      <files path="Clojurescript/om-tutorial/resources/models/IFML.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.0" date="2017-04-25"/>
+      </files>
+      <files path="Clojurescript/xmi-conversion/resources/models/IFML.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.0" date="2017-04-25"/>
+      </files>
+    </repositories>
+  </users>
+  <users id="6231166" name="damenac">
+    <repositories watchers="2" size="985014" forks="2" name="puzzle" stargazers="2">
+      <files path="plugins/fr.inria.diverse.puzzle.metrics/temp/Providers.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.15" date="2015-11-23"/>
+      </files>
+      <files path="plugins/fr.inria.diverse.puzzle.metrics/testdata/Providers.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.15" date="2015-10-14"/>
+      </files>
+      <files path="examples/empirical-study/puzzle.empirical.study/githubmetamodels/Providers.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.15" date="2015-12-03"/>
+      </files>
+    </repositories>
+  </users>
+  <users id="5571443" name="diverse-project">
+    <repositories watchers="13" size="199827" forks="5" name="melange" stargazers="13">
+      <files path="tests/fr.inria.diverse.melange.tests/tests-inputs/metamodels/merge/AbstractOverride.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.9" date="2015-09-18"/>
+      </files>
+      <files path="tests/fr.inria.diverse.melange.tests/tests-inputs/metamodels/merge/InvalidSuperTypes.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.9" date="2015-09-18"/>
+      </files>
+      <files path="tests/fr.inria.diverse.melange.tests/tests-inputs/metamodels/merge/SuperTypes.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.9" date="2015-09-18"/>
+      </files>
+      <files path="tests/fr.inria.diverse.melange.tests/tests-inputs/metamodels/merge/ConflictingOpposite.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.9" date="2015-09-18"/>
+      </files>
+      <files path="tests/fr.inria.diverse.melange.tests/tests-inputs/metamodels/merge/ValidOpposite.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.9" date="2015-09-18"/>
+      </files>
+    </repositories>
+  </users>
+  <users id="2829407" name="dvdkruk">
+    <repositories size="50386" name="spray">
+      <files path="examples/contain/org.eclipselabs.spray.contain.domain/model/contain.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.31" date="2013-01-13"/>
+      </files>
+    </repositories>
+  </users>
+  <users id="56974" name="eclipse">
+    <repositories watchers="5" size="32593" forks="11" name="qvto" stargazers="5">
+      <files path="tests/org.eclipse.m2m.tests.qvt.oml/parserTestData/models/mm_header1/expected.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.3" date="2007-08-20"/>
+      </files>
+      <files path="tests/org.eclipse.m2m.tests.qvt.oml/parserTestData/models/bug425066/out.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.30" date="2016-02-15"/>
+      </files>
+      <files path="tests/org.eclipse.m2m.tests.qvt.oml/parserTestData/models/constructors/constructors_x.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.3" date="2009-02-03"/>
+      </files>
+      <files path="tests/org.eclipse.m2m.tests.qvt.oml/parserTestData/models/uml2_stereotypeApplication/expected2.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.3" date="2014-02-19"/>
+        <commits author="//@developers.3" date="2010-05-18"/>
+      </files>
+      <files path="tests/org.eclipse.m2m.tests.qvt.oml/parserTestData/models/intermediateprop_import/expected.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.28" date="2008-12-10"/>
+        <commits author="//@developers.3" date="2008-04-29"/>
+      </files>
+      <files path="tests/org.eclipse.m2m.tests.qvt.oml/parserTestData/models/collectionMappingResult/expected.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.3" date="2008-07-08"/>
+        <commits author="//@developers.28" date="2008-04-28"/>
+      </files>
+      <files path="tests/org.eclipse.m2m.tests.qvt.oml/parserTestData/models/simplestXCollectShorthand/expected.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.13" date="2008-02-01"/>
+      </files>
+      <files path="tests/org.eclipse.m2m.tests.qvt.oml/parserTestData/models/bug219075_1/expected.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.3" date="2008-02-27"/>
+        <commits author="//@developers.3" date="2008-02-15"/>
+      </files>
+      <files path="tests/org.eclipse.m2m.tests.qvt.oml/parserTestData/models/bug2741/in.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.13" date="2008-02-07"/>
+      </files>
+      <files path="tests/org.eclipse.m2m.tests.qvt.oml/parserTestData/models/overload_singleParam/expected.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.28" date="2009-05-12"/>
+      </files>
+      <files path="tests/org.eclipse.m2m.tests.qvt.oml/parserTestData/models/iteratetest/expected.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.28" date="2007-07-29"/>
+      </files>
+      <files path="tests/org.eclipse.m2m.tests.qvt.oml/parserTestData/models/objectExpBodyExpressions_253051/expected.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.13" date="2008-11-13"/>
+      </files>
+      <files path="tests/org.eclipse.m2m.tests.qvt.oml/parserTestData/models/resolve_notype/expected.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.28" date="2007-07-29"/>
+      </files>
+    </repositories>
+    <repositories watchers="6" size="20810" forks="3" name="atl" stargazers="6">
+      <files path="tests/org.eclipse.m2m.atl.emftvm.tests/test-data/RefiningModeTest/RefiningModeTest.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.6" date="2013-01-04"/>
+      </files>
+    </repositories>
+    <repositories watchers="13" size="39229" forks="15" name="gmf-tooling" stargazers="13">
+      <files path="test-examples/borders/org.eclipse.gmf.tooling.examples.border/model/borders.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.26" date="2013-10-18"/>
+      </files>
+      <files path="test-examples/borders/org.eclipse.gmf.tooling.examples.border/model/borders.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.26" date="2013-10-18"/>
+      </files>
+    </repositories>
+    <repositories watchers="14" size="94850" forks="14" name="emf.compare" stargazers="14">
+      <files path="plugins/org.eclipse.emf.compare.ide.ui.tests/src/org/eclipse/emf/compare/ide/ui/tests/command/data/modelOrigin.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.17" date="2015-05-26"/>
+      </files>
+    </repositories>
+  </users>
+  <users id="8514377" name="gemoc">
+    <repositories size="105516" name="org.eclipse.sirius">
+      <files path="plugins/org.eclipse.sirius.tests.junit/data/unit/style/ticket2229/2229.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.23" date="2014-09-29"/>
+      </files>
+      <files path="plugins/org.eclipse.sirius.tests.swtbot/data/unit/closeEditorSpecificTest/1854.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.23" date="2014-08-25"/>
+      </files>
+      <files path="plugins/org.eclipse.sirius.tests.swtbot/data/unit/session/representationCreation/My_.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.23" date="2014-08-25"/>
+      </files>
+      <files path="plugins/org.eclipse.sirius.tests.swtbot/data/unit/dragAndDrop/extra_mapping/My.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.23" date="2014-08-25"/>
+      </files>
+      <files path="plugins/org.eclipse.sirius.tests.swtbot/data/unit/routing/change_routing_style/My.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.23" date="2014-08-25"/>
+      </files>
+    </repositories>
+  </users>
+  <users id="148045" name="ghillairet">
+    <repositories watchers="14" size="4110" forks="7" name="emftriple" stargazers="14">
+      <files path="bundles/org.eclipselabs.emftriple.query/model/result.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.4" date="2013-05-31"/>
+        <commits author="//@developers.4" date="2013-05-30"/>
+      </files>
+    </repositories>
+  </users>
+  <users id="3829556" name="janjve">
+    <repositories watchers="1" size="64128" name="Itu.Shared" stargazers="1">
+      <files path="Source/7 Domain Specific Languages/Week 3 - Meta models/Css/model/css.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.27" date="2016-09-21"/>
+      </files>
+    </repositories>
+  </users>
+  <users id="770145" name="jesusc">
+    <repositories watchers="1" size="80233" name="bento" stargazers="1">
+      <files path="examples/library/bento.trafolib.oorefactorings.bindings/gen/Test2_flattened.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.29" date="2016-06-20"/>
+      </files>
+      <files path="examples/library/bento.trafolib.oorefactorings.bindings/tests/Test2.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.29" date="2016-06-20"/>
+      </files>
+    </repositories>
+  </users>
+  <users id="994131" name="joergreichert">
+    <repositories watchers="1" size="50421" forks="2" name="spray" stargazers="1">
+      <files path="examples/contain/org.eclipselabs.spray.contain.domain/model/contain.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.31" date="2013-01-13"/>
+      </files>
+    </repositories>
+  </users>
+  <users id="9501657" name="lengyela89">
+    <repositories watchers="1" size="92473" name="sirius-custom" stargazers="1">
+      <files path="plugins/org.eclipse.sirius.tests.junit/data/unit/mappings/VP-2534/My.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.23" date="2014-09-29"/>
+      </files>
+      <files path="plugins/org.eclipse.sirius.tests.swtbot/data/unit/delete/bugzilla-444728/toolFilterNPE.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.24" date="2014-10-06"/>
+      </files>
+      <files path="plugins/org.eclipse.sirius.tests.junit/data/unit/style/ticket2229/2229.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.23" date="2014-09-29"/>
+      </files>
+      <files path="plugins/org.eclipse.sirius.tests.swtbot/data/unit/closeEditorSpecificTest/1854.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.23" date="2014-08-25"/>
+      </files>
+      <files path="plugins/org.eclipse.sirius.tests.swtbot/data/unit/session/representationCreation/My_.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.23" date="2014-08-25"/>
+      </files>
+      <files path="plugins/org.eclipse.sirius.tests.swtbot/data/unit/dragAndDrop/extra_mapping/My.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.23" date="2014-08-25"/>
+      </files>
+      <files path="plugins/org.eclipse.sirius.tests.swtbot/data/unit/routing/change_routing_style/My.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.23" date="2014-08-25"/>
+      </files>
+    </repositories>
+  </users>
+  <users id="16200756" name="lequanghiep74">
+    <repositories size="67398" name="capstone">
+      <files path="com.capstone.mydsl/model/generated/Domainmodel.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.5" date="2016-12-29"/>
+      </files>
+    </repositories>
+  </users>
+  <users id="1998313" name="leszekuchacz">
+    <repositories size="308" name="Piaskownica-Java">
+      <files path="Warsztat-Java17/plugin/My.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.18" date="2013-04-29"/>
+      </files>
+    </repositories>
+  </users>
+  <users id="11246483" name="lolybc88">
+    <repositories size="85922" name="pATL">
+      <files path="wsParallelATL/org.eclipse.m2m.atl.emftvm.tests/test-data/RefiningModeTest/RefiningModeTest.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.10" date="2016-09-20"/>
+      </files>
+    </repositories>
+  </users>
+  <users id="11452178" name="movespace">
+    <repositories size="37700" name="gmf-tools">
+      <files path="test-examples/borders/org.eclipse.gmf.tooling.examples.border/model/borders.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.26" date="2013-10-18"/>
+      </files>
+      <files path="test-examples/borders/org.eclipse.gmf.tooling.examples.border/model/borders.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.26" date="2013-10-18"/>
+      </files>
+    </repositories>
+  </users>
+  <users id="10608" name="pcdavid">
+    <repositories watchers="1" size="107975" forks="7" name="org.eclipse.sirius" stargazers="1">
+      <files path="plugins/org.eclipse.sirius.tests.junit/data/unit/mappings/VP-2534/My.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.23" date="2014-09-29"/>
+      </files>
+      <files path="plugins/org.eclipse.sirius.tests.swtbot/data/unit/std/017/STD-TEST-017.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.23" date="2014-08-25"/>
+      </files>
+      <files path="plugins/org.eclipse.sirius.tests.swtbot/data/unit/delete/bugzilla-444728/toolFilterNPE.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.24" date="2014-10-06"/>
+      </files>
+      <files path="plugins/org.eclipse.sirius.tests.junit/data/unit/style/ticket2229/2229.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.23" date="2014-09-29"/>
+      </files>
+      <files path="plugins/org.eclipse.sirius.tests.swtbot/data/unit/closeEditorSpecificTest/1854.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.23" date="2014-08-25"/>
+      </files>
+      <files path="plugins/org.eclipse.sirius.tests.swtbot/data/unit/dragAndDrop/tree_table_to_diagram/test.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.23" date="2014-08-25"/>
+      </files>
+      <files path="plugins/org.eclipse.sirius.tests.swtbot/data/unit/session/representationCreation/My_.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.23" date="2014-08-25"/>
+      </files>
+      <files path="plugins/org.eclipse.sirius.tests.swtbot/data/unit/copyAppearance/490444.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.1" date="2016-04-25"/>
+      </files>
+      <files path="plugins/org.eclipse.sirius.tests.swtbot/data/unit/dragAndDrop/extra_mapping/My.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.23" date="2014-08-25"/>
+      </files>
+      <files path="plugins/org.eclipse.sirius.tests.swtbot/data/unit/routing/change_routing_style/My.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.23" date="2014-08-25"/>
+      </files>
+      <files path="plugins/org.eclipse.sirius.tests.junit/data/unit/layoutingMode/vp2120.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.23" date="2014-09-29"/>
+      </files>
+      <files path="plugins/org.eclipse.sirius.tests.swtbot/data/unit/migration/sc1/sc1.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.23" date="2014-08-25"/>
+      </files>
+      <files path="plugins/org.eclipse.sirius.tests.swtbot/data/unit/migration/sc2/sc2.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.23" date="2014-08-25"/>
+      </files>
+      <files path="plugins/org.eclipse.sirius.tests.swtbot/data/unit/migration/sc3/sc3-1.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.23" date="2014-08-25"/>
+      </files>
+      <files path="plugins/org.eclipse.sirius.tests.swtbot/data/unit/migration/sc3/sc3-2.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.23" date="2014-08-25"/>
+      </files>
+      <files path="plugins/org.eclipse.sirius.tests.junit/data/tree/unit/directedit/vp912/vp912.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.23" date="2014-09-29"/>
+      </files>
+      <files path="plugins/org.eclipse.sirius.tests.junit/data/unit/repair/lostelements/tc1/tc1945.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.23" date="2014-09-29"/>
+      </files>
+      <files path="plugins/org.eclipse.sirius.tests.swtbot/data/unit/layout/resetOrigin/resetOrigin.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.24" date="2014-10-16"/>
+        <commits author="//@developers.1" date="2014-10-13"/>
+      </files>
+    </repositories>
+  </users>
+  <users id="5604095" name="tdegueul">
+    <repositories watchers="1" size="820" forks="1" name="ecore-oa" stargazers="1">
+      <files path="algebra-generator/fr.inria.diverse.objectalgebragenerator.test/model/OARootInheritance1.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.9" date="2017-03-13"/>
+      </files>
+    </repositories>
+    <repositories watchers="1" size="88" name="revisitor-alacarte" stargazers="1">
+      <files path="modules/AugmentedFSM/model/AugmentedFSM.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.9" date="2017-08-23"/>
+      </files>
+    </repositories>
+    <repositories watchers="1" size="15088" name="ale-xbase" stargazers="1">
+      <files path="tests/testdata/dispatch/model/Dispatch.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.9" date="2017-07-28"/>
+      </files>
+    </repositories>
+  </users>
+  <users id="3519835" name="tue-mdse">
+    <repositories watchers="1" size="27580" name="ocl-dataset" stargazers="1">
+      <files path="dataset/repos/adilinam/QVTo-QVTd-OCL/org.eclipse.m2m.tests.qvt.oml/parserTestData/models/mm_header1/expected.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.7" date="2017-03-17"/>
+      </files>
+      <files path="dataset-mtl/repos/adilinam/QVTo-QVTd-OCL/org.eclipse.m2m.tests.qvt.oml/parserTestData/models/mm_header1/expected.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.7" date="2017-06-26"/>
+      </files>
+      <files path="dataset/repos/adilinam/QVTo-QVTd-OCL/org.eclipse.m2m.tests.qvt.oml/parserTestData/models/constructors/constructors_x.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.7" date="2017-03-17"/>
+      </files>
+      <files path="dataset-mtl/repos/adilinam/QVTo-QVTd-OCL/org.eclipse.m2m.tests.qvt.oml/parserTestData/models/constructors/constructors_x.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.7" date="2017-06-26"/>
+      </files>
+      <files path="dataset/repos/adilinam/QVTo-QVTd-OCL/org.eclipse.m2m.tests.qvt.oml/parserTestData/models/uml2_stereotypeApplication/expected2.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.7" date="2017-03-17"/>
+      </files>
+      <files path="dataset-mtl/repos/adilinam/QVTo-QVTd-OCL/org.eclipse.m2m.tests.qvt.oml/parserTestData/models/uml2_stereotypeApplication/expected2.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.7" date="2017-06-26"/>
+      </files>
+      <files path="dataset/repos/adilinam/QVTo-QVTd-OCL/org.eclipse.m2m.tests.qvt.oml/parserTestData/models/intermediateprop_import/expected.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.7" date="2017-03-17"/>
+      </files>
+      <files path="dataset-mtl/repos/adilinam/QVTo-QVTd-OCL/org.eclipse.m2m.tests.qvt.oml/parserTestData/models/intermediateprop_import/expected.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.7" date="2017-06-26"/>
+      </files>
+      <files path="dataset-mtl/repos/gemoc/org.eclipse.sirius/plugins/org.eclipse.sirius.tests.junit/data/unit/mappings/VP-2534/My.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.7" date="2017-06-26"/>
+      </files>
+      <files path="dataset-mtl/repos/lengyela89/sirius-custom/plugins/org.eclipse.sirius.tests.junit/data/unit/mappings/VP-2534/My.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.7" date="2017-06-26"/>
+      </files>
+      <files path="dataset-mtl/repos/pcdavid/org.eclipse.sirius/plugins/org.eclipse.sirius.tests.junit/data/unit/mappings/VP-2534/My.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.7" date="2017-06-26"/>
+      </files>
+      <files path="dataset-mtl/repos/ujhelyiz/org.eclipse.sirius/plugins/org.eclipse.sirius.tests.junit/data/unit/mappings/VP-2534/My.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.7" date="2017-06-26"/>
+      </files>
+      <files path="dataset/repos/adilinam/QVTo-QVTd-OCL/org.eclipse.m2m.tests.qvt.oml/parserTestData/models/collectionMappingResult/expected.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.7" date="2017-03-17"/>
+      </files>
+      <files path="dataset/repos/adilinam/QVTo-QVTd-OCL/org.eclipse.m2m.tests.qvt.oml/parserTestData/models/simplestXCollectShorthand/expected.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.7" date="2017-03-17"/>
+      </files>
+      <files path="dataset-mtl/repos/adilinam/QVTo-QVTd-OCL/org.eclipse.m2m.tests.qvt.oml/parserTestData/models/collectionMappingResult/expected.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.7" date="2017-06-26"/>
+      </files>
+      <files path="dataset-mtl/repos/adilinam/QVTo-QVTd-OCL/org.eclipse.m2m.tests.qvt.oml/parserTestData/models/simplestXCollectShorthand/expected.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.7" date="2017-06-26"/>
+      </files>
+      <files path="dataset-mtl/repos/gemoc/org.eclipse.sirius/plugins/org.eclipse.sirius.tests.swtbot/data/unit/delete/bugzilla-444728/toolFilterNPE.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.7" date="2017-06-26"/>
+      </files>
+      <files path="dataset-mtl/repos/lengyela89/sirius-custom/plugins/org.eclipse.sirius.tests.swtbot/data/unit/delete/bugzilla-444728/toolFilterNPE.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.7" date="2017-06-26"/>
+      </files>
+      <files path="dataset-mtl/repos/pcdavid/org.eclipse.sirius/plugins/org.eclipse.sirius.tests.swtbot/data/unit/delete/bugzilla-444728/toolFilterNPE.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.7" date="2017-06-26"/>
+      </files>
+      <files path="dataset-mtl/repos/ujhelyiz/org.eclipse.sirius/plugins/org.eclipse.sirius.tests.swtbot/data/unit/delete/bugzilla-444728/toolFilterNPE.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.7" date="2017-06-26"/>
+      </files>
+      <files path="dataset-mtl/repos/gemoc/org.eclipse.sirius/plugins/org.eclipse.sirius.tests.junit/data/unit/style/ticket2229/2229.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.7" date="2017-06-26"/>
+      </files>
+      <files path="dataset-mtl/repos/lengyela89/sirius-custom/plugins/org.eclipse.sirius.tests.junit/data/unit/style/ticket2229/2229.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.7" date="2017-06-26"/>
+      </files>
+      <files path="dataset-mtl/repos/pcdavid/org.eclipse.sirius/plugins/org.eclipse.sirius.tests.junit/data/unit/style/ticket2229/2229.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.7" date="2017-06-26"/>
+      </files>
+      <files path="dataset-mtl/repos/ujhelyiz/org.eclipse.sirius/plugins/org.eclipse.sirius.tests.junit/data/unit/style/ticket2229/2229.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.7" date="2017-06-26"/>
+      </files>
+      <files path="dataset-mtl/repos/gemoc/org.eclipse.sirius/plugins/org.eclipse.sirius.tests.swtbot/data/unit/closeEditorSpecificTest/1854.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.7" date="2017-06-26"/>
+      </files>
+      <files path="dataset-mtl/repos/lengyela89/sirius-custom/plugins/org.eclipse.sirius.tests.swtbot/data/unit/closeEditorSpecificTest/1854.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.7" date="2017-06-26"/>
+      </files>
+      <files path="dataset-mtl/repos/pcdavid/org.eclipse.sirius/plugins/org.eclipse.sirius.tests.swtbot/data/unit/closeEditorSpecificTest/1854.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.7" date="2017-06-26"/>
+      </files>
+      <files path="dataset-mtl/repos/ujhelyiz/org.eclipse.sirius/plugins/org.eclipse.sirius.tests.swtbot/data/unit/closeEditorSpecificTest/1854.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.7" date="2017-06-26"/>
+      </files>
+      <files path="dataset-mtl/repos/gemoc/org.eclipse.sirius/plugins/org.eclipse.sirius.tests.swtbot/data/unit/session/representationCreation/My_.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.7" date="2017-06-26"/>
+      </files>
+      <files path="dataset-mtl/repos/lengyela89/sirius-custom/plugins/org.eclipse.sirius.tests.swtbot/data/unit/session/representationCreation/My_.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.7" date="2017-06-26"/>
+      </files>
+      <files path="dataset-mtl/repos/pcdavid/org.eclipse.sirius/plugins/org.eclipse.sirius.tests.swtbot/data/unit/session/representationCreation/My_.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.7" date="2017-06-26"/>
+      </files>
+      <files path="dataset-mtl/repos/ujhelyiz/org.eclipse.sirius/plugins/org.eclipse.sirius.tests.swtbot/data/unit/session/representationCreation/My_.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.7" date="2017-06-26"/>
+      </files>
+      <files path="dataset-mtl/repos/gemoc/org.eclipse.sirius/plugins/org.eclipse.sirius.tests.swtbot/data/unit/dragAndDrop/extra_mapping/My.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.7" date="2017-06-26"/>
+      </files>
+      <files path="dataset-mtl/repos/lengyela89/sirius-custom/plugins/org.eclipse.sirius.tests.swtbot/data/unit/dragAndDrop/extra_mapping/My.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.7" date="2017-06-26"/>
+      </files>
+      <files path="dataset-mtl/repos/pcdavid/org.eclipse.sirius/plugins/org.eclipse.sirius.tests.swtbot/data/unit/dragAndDrop/extra_mapping/My.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.7" date="2017-06-26"/>
+      </files>
+      <files path="dataset-mtl/repos/ujhelyiz/org.eclipse.sirius/plugins/org.eclipse.sirius.tests.swtbot/data/unit/dragAndDrop/extra_mapping/My.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.7" date="2017-06-26"/>
+      </files>
+      <files path="dataset-mtl/repos/gemoc/org.eclipse.sirius/plugins/org.eclipse.sirius.tests.swtbot/data/unit/routing/change_routing_style/My.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.7" date="2017-06-26"/>
+      </files>
+      <files path="dataset-mtl/repos/lengyela89/sirius-custom/plugins/org.eclipse.sirius.tests.swtbot/data/unit/routing/change_routing_style/My.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.7" date="2017-06-26"/>
+      </files>
+      <files path="dataset-mtl/repos/pcdavid/org.eclipse.sirius/plugins/org.eclipse.sirius.tests.swtbot/data/unit/routing/change_routing_style/My.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.7" date="2017-06-26"/>
+      </files>
+      <files path="dataset-mtl/repos/ujhelyiz/org.eclipse.sirius/plugins/org.eclipse.sirius.tests.swtbot/data/unit/routing/change_routing_style/My.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.7" date="2017-06-26"/>
+      </files>
+      <files path="dataset/repos/adilinam/QVTo-QVTd-OCL/org.eclipse.m2m.tests.qvt.oml/parserTestData/models/overload_singleParam/expected.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.7" date="2017-03-17"/>
+      </files>
+      <files path="dataset-mtl/repos/adilinam/QVTo-QVTd-OCL/org.eclipse.m2m.tests.qvt.oml/parserTestData/models/overload_singleParam/expected.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.7" date="2017-06-26"/>
+      </files>
+      <files path="dataset/repos/adilinam/QVTo-QVTd-OCL/org.eclipse.m2m.tests.qvt.oml/parserTestData/models/iteratetest/expected.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.7" date="2017-03-17"/>
+      </files>
+      <files path="dataset-mtl/repos/adilinam/QVTo-QVTd-OCL/org.eclipse.m2m.tests.qvt.oml/parserTestData/models/iteratetest/expected.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.7" date="2017-06-26"/>
+      </files>
+      <files path="dataset/repos/adilinam/QVTo-QVTd-OCL/org.eclipse.m2m.tests.qvt.oml/parserTestData/models/resolve_notype/expected.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.7" date="2017-03-17"/>
+      </files>
+      <files path="dataset-mtl/repos/adilinam/QVTo-QVTd-OCL/org.eclipse.m2m.tests.qvt.oml/parserTestData/models/resolve_notype/expected.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.7" date="2017-06-26"/>
+      </files>
+      <files path="dataset-mtl/repos/Jamzeroth/WorkspacesMG/Mars/runtime-EclipseApplication/Customization/ORIGINAL(PLEASE DO NOT CHANGE)/Vehículo.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.7" date="2017-06-26"/>
+      </files>
+      <files path="dataset-mtl/repos/Jamzeroth/WorkspacesMG/runtime-EclipseApplication/Customization/ORIGINAL(PLEASE DO NOT CHANGE)/Vehículo.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.7" date="2017-06-26"/>
+      </files>
+      <files path="dataset-mtl/repos/gemoc/org.eclipse.sirius/plugins/org.eclipse.sirius.tests.junit/data/tree/unit/directedit/vp912/vp912.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.7" date="2017-06-26"/>
+      </files>
+      <files path="dataset-mtl/repos/lengyela89/sirius-custom/plugins/org.eclipse.sirius.tests.junit/data/tree/unit/directedit/vp912/vp912.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.7" date="2017-06-26"/>
+      </files>
+      <files path="dataset-mtl/repos/pcdavid/org.eclipse.sirius/plugins/org.eclipse.sirius.tests.junit/data/tree/unit/directedit/vp912/vp912.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.7" date="2017-06-26"/>
+      </files>
+      <files path="dataset-mtl/repos/ujhelyiz/org.eclipse.sirius/plugins/org.eclipse.sirius.tests.junit/data/tree/unit/directedit/vp912/vp912.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.7" date="2017-06-26"/>
+      </files>
+    </repositories>
+  </users>
+  <users id="251892" name="ujhelyiz">
+    <repositories size="120353" name="org.eclipse.sirius">
+      <files path="plugins/org.eclipse.sirius.tests.junit/data/unit/session/1457/diagram.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.23" user="//@users.30" date="2014-09-29"/>
+      </files>
+      <files path="plugins/org.eclipse.sirius.tests.swtbot/data/unit/session/representationCreation/My2.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.23" user="//@users.30" date="2014-08-25"/>
+      </files>
+      <files path="plugins/org.eclipse.sirius.tests.swtbot/data/unit/session/vsmChange/diagram.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.23" user="//@users.30" date="2014-08-25"/>
+      </files>
+      <files path="plugins/org.eclipse.sirius.tests.junit/data/unit/mappings/VP-2534/My.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.23" user="//@users.30" date="2014-09-29"/>
+      </files>
+      <files path="plugins/org.eclipse.sirius.tests.swtbot/data/unit/std/017/STD-TEST-017.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.23" user="//@users.30" date="2014-08-25"/>
+      </files>
+      <files path="plugins/org.eclipse.sirius.tests.swtbot/data/unit/delete/bugzilla-444728/toolFilterNPE.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.24" date="2014-10-06"/>
+      </files>
+      <files path="plugins/org.eclipse.sirius.tests.swtbot/data/unit/sequence/delete/VP-1296/types.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.23" user="//@users.30" date="2014-08-25"/>
+      </files>
+      <files path="plugins/org.eclipse.sirius.tests.swtbot/data/unit/std/006/STD-TEST-006.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.23" user="//@users.30" date="2014-08-25"/>
+      </files>
+      <files path="plugins/org.eclipse.sirius.tests.swtbot/data/unit/std/018/STD-TEST-018.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.23" user="//@users.30" date="2014-08-25"/>
+      </files>
+      <files path="plugins/org.eclipse.sirius.tests.junit/data/unit/style/ticket2229/2229.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.23" user="//@users.30" date="2014-09-29"/>
+      </files>
+      <files path="plugins/org.eclipse.sirius.tests.swtbot/data/unit/closeEditorSpecificTest/1854.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.23" user="//@users.30" date="2014-08-25"/>
+      </files>
+      <files path="plugins/org.eclipse.sirius.tests.swtbot/data/unit/dragAndDrop/tree_table_to_diagram/test.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.23" user="//@users.30" date="2014-08-25"/>
+      </files>
+      <files path="plugins/org.eclipse.sirius.tests.swtbot/data/unit/session/representationCreation/My_.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.23" user="//@users.30" date="2014-08-25"/>
+      </files>
+      <files path="plugins/org.eclipse.sirius.tests.swtbot/data/unit/borderNodeSide/borderNodeSide.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.1" date="2016-03-22"/>
+      </files>
+      <files path="plugins/org.eclipse.sirius.tests.junit/data/unit/control/vp-2824/main.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.23" user="//@users.30" date="2014-09-29"/>
+      </files>
+      <files path="plugins/org.eclipse.sirius.tests.swtbot/data/unit/copyAppearance/490444.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.1" date="2016-04-25"/>
+      </files>
+      <files path="plugins/org.eclipse.sirius.tests.swtbot/data/unit/tc-2185_edge_creation_position/models/tc-2185.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.24" date="2016-05-23"/>
+        <commits author="//@developers.23" date="2014-08-25"/>
+      </files>
+      <files path="plugins/org.eclipse.sirius.tests.swtbot/data/unit/dragAndDrop/extra_mapping/My.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.23" user="//@users.30" date="2014-08-25"/>
+      </files>
+      <files path="plugins/org.eclipse.sirius.tests.swtbot/data/unit/routing/change_routing_style/My.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.23" user="//@users.30" date="2014-08-25"/>
+      </files>
+      <files path="plugins/org.eclipse.sirius.tests.swtbot/data/unit/changeColorMenu/My.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.23" user="//@users.30" date="2014-08-25"/>
+      </files>
+      <files path="plugins/org.eclipse.sirius.tests.junit/data/unit/layoutingMode/vp2120.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.23" user="//@users.30" date="2014-09-29"/>
+      </files>
+      <files path="plugins/org.eclipse.sirius.tests.swtbot/data/unit/layoutingMode/vp2120.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.23" user="//@users.30" date="2014-08-25"/>
+      </files>
+      <files path="plugins/org.eclipse.sirius.tests.swtbot/data/unit/migration/sc1/sc1.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.23" user="//@users.30" date="2014-08-25"/>
+      </files>
+      <files path="plugins/org.eclipse.sirius.tests.swtbot/data/unit/migration/sc2/sc2.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.23" user="//@users.30" date="2014-08-25"/>
+      </files>
+      <files path="plugins/org.eclipse.sirius.tests.swtbot/data/unit/migration/sc3/sc3-1.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.23" user="//@users.30" date="2014-08-25"/>
+      </files>
+      <files path="plugins/org.eclipse.sirius.tests.swtbot/data/unit/migration/sc3/sc3-2.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.23" user="//@users.30" date="2014-08-25"/>
+      </files>
+      <files path="plugins/org.eclipse.sirius.tests.swtbot/data/unit/migration/sc4/sc4-1.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.23" user="//@users.30" date="2014-08-25"/>
+      </files>
+      <files path="plugins/org.eclipse.sirius.tests.swtbot/data/unit/migration/sc4/sc4-2.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.23" user="//@users.30" date="2014-08-25"/>
+      </files>
+      <files path="plugins/org.eclipse.sirius.tests.junit/data/tree/unit/directedit/vp912/vp912.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.23" user="//@users.30" date="2014-09-29"/>
+      </files>
+      <files path="plugins/org.eclipse.sirius.tests.junit/data/unit/repair/lostelements/tc1/tc1945.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.23" user="//@users.30" date="2014-09-29"/>
+      </files>
+      <files path="plugins/org.eclipse.sirius.tests.swtbot/data/unit/layout/resetOrigin/resetOrigin.ecore" technologies="//@technologies.0">
+        <commits author="//@developers.24" date="2014-10-16"/>
+        <commits author="//@developers.1" date="2014-10-13"/>
+      </files>
+    </repositories>
+  </users>
+</dio:Model>
